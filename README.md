@@ -266,6 +266,9 @@ The pipeline handles errors gracefully:
 - Implement parallel ticker processing
 - Add data export functionality
 
+## Project By:- 
+
+
 ## License
 
 MIT License - see repository for details
