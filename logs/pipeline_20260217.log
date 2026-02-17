@@ -1,0 +1,109 @@
+2026-02-17 15:22:37 - pipeline - INFO - Starting pipeline for 3 tickers
+2026-02-17 15:22:37 - pipeline - INFO - Incremental mode: True
+2026-02-17 15:22:37 - pipeline - INFO - Connecting to DuckDB at C:\Users\karti\data-ingestion\data\stock_data.duckdb
+2026-02-17 15:22:37 - pipeline - INFO - Initializing database schema
+2026-02-17 15:22:37 - pipeline - INFO - Schema initialization complete
+2026-02-17 15:22:37 - pipeline - INFO - Processing ticker: AAPL
+2026-02-17 15:22:37 - pipeline - INFO - No existing data found for AAPL
+2026-02-17 15:22:37 - pipeline - INFO - Full load: no existing data found
+2026-02-17 15:22:37 - pipeline - INFO - Downloading data for AAPL from 2021-02-18 to 2026-02-17
+2026-02-17 15:22:44 - pipeline - INFO - Successfully downloaded 1254 rows for AAPL
+2026-02-17 15:22:44 - pipeline - INFO - Schema validation passed
+2026-02-17 15:22:44 - pipeline - INFO - Data quality validation passed
+2026-02-17 15:22:44 - pipeline - INFO - Validation passed for AAPL
+2026-02-17 15:22:44 - pipeline - INFO - Upserting 1254 rows for AAPL
+2026-02-17 15:22:44 - pipeline - INFO - Successfully upserted 1254 rows for AAPL
+2026-02-17 15:22:44 - pipeline - INFO - Stored 1254 rows for AAPL
+2026-02-17 15:22:44 - pipeline - INFO - Processing ticker: MSFT
+2026-02-17 15:22:44 - pipeline - INFO - No existing data found for MSFT
+2026-02-17 15:22:44 - pipeline - INFO - Full load: no existing data found
+2026-02-17 15:22:44 - pipeline - INFO - Downloading data for MSFT from 2021-02-18 to 2026-02-17
+2026-02-17 15:22:44 - pipeline - INFO - Successfully downloaded 1254 rows for MSFT
+2026-02-17 15:22:44 - pipeline - INFO - Schema validation passed
+2026-02-17 15:22:44 - pipeline - INFO - Data quality validation passed
+2026-02-17 15:22:44 - pipeline - INFO - Validation passed for MSFT
+2026-02-17 15:22:44 - pipeline - INFO - Upserting 1254 rows for MSFT
+2026-02-17 15:22:44 - pipeline - INFO - Successfully upserted 1254 rows for MSFT
+2026-02-17 15:22:44 - pipeline - INFO - Stored 1254 rows for MSFT
+2026-02-17 15:22:44 - pipeline - INFO - Processing ticker: GOOGL
+2026-02-17 15:22:44 - pipeline - INFO - No existing data found for GOOGL
+2026-02-17 15:22:44 - pipeline - INFO - Full load: no existing data found
+2026-02-17 15:22:44 - pipeline - INFO - Downloading data for GOOGL from 2021-02-18 to 2026-02-17
+2026-02-17 15:22:44 - pipeline - INFO - Successfully downloaded 1254 rows for GOOGL
+2026-02-17 15:22:44 - pipeline - INFO - Schema validation passed
+2026-02-17 15:22:44 - pipeline - INFO - Data quality validation passed
+2026-02-17 15:22:44 - pipeline - INFO - Validation passed for GOOGL
+2026-02-17 15:22:44 - pipeline - INFO - Upserting 1254 rows for GOOGL
+2026-02-17 15:22:44 - pipeline - INFO - Successfully upserted 1254 rows for GOOGL
+2026-02-17 15:22:44 - pipeline - INFO - Stored 1254 rows for GOOGL
+2026-02-17 15:22:44 - pipeline - INFO - ==================================================
+2026-02-17 15:22:44 - pipeline - INFO - PIPELINE EXECUTION SUMMARY
+2026-02-17 15:22:44 - pipeline - INFO - ==================================================
+2026-02-17 15:22:44 - pipeline - INFO - Duration: 7.00 seconds
+2026-02-17 15:22:44 - pipeline - INFO - Tickers processed: 3/3
+2026-02-17 15:22:44 - pipeline - INFO - Tickers failed: 0
+2026-02-17 15:22:44 - pipeline - INFO - Total rows inserted: 3762
+2026-02-17 15:22:44 - pipeline - INFO - Errors: 0
+2026-02-17 15:22:44 - pipeline - INFO - Warnings: 0
+2026-02-17 15:22:44 - pipeline - INFO - ==================================================
+2026-02-17 15:22:44 - pipeline - INFO - Closing DuckDB connection
+2026-02-17 15:22:44 - pipeline - INFO - Connecting to DuckDB at C:\Users\karti\data-ingestion\data\stock_data.duckdb
+2026-02-17 15:22:44 - pipeline - INFO - Initializing database schema
+2026-02-17 15:22:44 - pipeline - INFO - Schema initialization complete
+2026-02-17 15:22:44 - pipeline - INFO - Closing DuckDB connection
+2026-02-17 15:29:16 - pipeline - INFO - Starting pipeline for 3 tickers
+2026-02-17 15:29:16 - pipeline - INFO - Incremental mode: True
+2026-02-17 15:29:16 - pipeline - INFO - Connecting to DuckDB at C:\Users\karti\Trading_Strategy_Backtesting_Platform\data\stock_data.duckdb
+2026-02-17 15:29:16 - pipeline - INFO - Initializing database schema
+2026-02-17 15:29:16 - pipeline - INFO - Schema initialization complete
+2026-02-17 15:29:16 - pipeline - INFO - Processing ticker: AAPL
+2026-02-17 15:29:16 - pipeline - INFO - Last date for AAPL: 2026-02-13
+2026-02-17 15:29:16 - pipeline - INFO - Incremental load: fetching data from 2026-02-14
+2026-02-17 15:29:16 - pipeline - INFO - Downloading data for AAPL from 2026-02-14 to 2026-02-17
+2026-02-17 15:29:17 - pipeline - INFO - Successfully downloaded 1 rows for AAPL
+2026-02-17 15:29:17 - pipeline - INFO - Schema validation passed
+2026-02-17 15:29:17 - pipeline - WARNING - Data quality issues found: ['Insufficient data: 1 rows (minimum: 10)']
+2026-02-17 15:29:17 - pipeline - WARNING - Validation issues for AAPL
+2026-02-17 15:29:17 - pipeline - WARNING - AAPL: Data quality warnings - ['Insufficient data: 1 rows (minimum: 10)']
+2026-02-17 15:29:17 - pipeline - INFO - Upserting 1 rows for AAPL
+2026-02-17 15:29:17 - pipeline - INFO - Successfully upserted 1 rows for AAPL
+2026-02-17 15:29:17 - pipeline - INFO - Stored 1 rows for AAPL
+2026-02-17 15:29:17 - pipeline - INFO - Processing ticker: MSFT
+2026-02-17 15:29:17 - pipeline - INFO - Last date for MSFT: 2026-02-13
+2026-02-17 15:29:17 - pipeline - INFO - Incremental load: fetching data from 2026-02-14
+2026-02-17 15:29:17 - pipeline - INFO - Downloading data for MSFT from 2026-02-14 to 2026-02-17
+2026-02-17 15:29:17 - pipeline - INFO - Successfully downloaded 1 rows for MSFT
+2026-02-17 15:29:17 - pipeline - INFO - Schema validation passed
+2026-02-17 15:29:17 - pipeline - WARNING - Data quality issues found: ['Insufficient data: 1 rows (minimum: 10)']
+2026-02-17 15:29:17 - pipeline - WARNING - Validation issues for MSFT
+2026-02-17 15:29:17 - pipeline - WARNING - MSFT: Data quality warnings - ['Insufficient data: 1 rows (minimum: 10)']
+2026-02-17 15:29:17 - pipeline - INFO - Upserting 1 rows for MSFT
+2026-02-17 15:29:17 - pipeline - INFO - Successfully upserted 1 rows for MSFT
+2026-02-17 15:29:17 - pipeline - INFO - Stored 1 rows for MSFT
+2026-02-17 15:29:17 - pipeline - INFO - Processing ticker: GOOGL
+2026-02-17 15:29:17 - pipeline - INFO - Last date for GOOGL: 2026-02-13
+2026-02-17 15:29:17 - pipeline - INFO - Incremental load: fetching data from 2026-02-14
+2026-02-17 15:29:17 - pipeline - INFO - Downloading data for GOOGL from 2026-02-14 to 2026-02-17
+2026-02-17 15:29:17 - pipeline - INFO - Successfully downloaded 1 rows for GOOGL
+2026-02-17 15:29:17 - pipeline - INFO - Schema validation passed
+2026-02-17 15:29:17 - pipeline - WARNING - Data quality issues found: ['Insufficient data: 1 rows (minimum: 10)']
+2026-02-17 15:29:17 - pipeline - WARNING - Validation issues for GOOGL
+2026-02-17 15:29:17 - pipeline - WARNING - GOOGL: Data quality warnings - ['Insufficient data: 1 rows (minimum: 10)']
+2026-02-17 15:29:17 - pipeline - INFO - Upserting 1 rows for GOOGL
+2026-02-17 15:29:17 - pipeline - INFO - Successfully upserted 1 rows for GOOGL
+2026-02-17 15:29:17 - pipeline - INFO - Stored 1 rows for GOOGL
+2026-02-17 15:29:17 - pipeline - INFO - ==================================================
+2026-02-17 15:29:17 - pipeline - INFO - PIPELINE EXECUTION SUMMARY
+2026-02-17 15:29:17 - pipeline - INFO - ==================================================
+2026-02-17 15:29:17 - pipeline - INFO - Duration: 1.45 seconds
+2026-02-17 15:29:17 - pipeline - INFO - Tickers processed: 3/3
+2026-02-17 15:29:17 - pipeline - INFO - Tickers failed: 0
+2026-02-17 15:29:17 - pipeline - INFO - Total rows inserted: 3
+2026-02-17 15:29:17 - pipeline - INFO - Errors: 0
+2026-02-17 15:29:17 - pipeline - INFO - Warnings: 3
+2026-02-17 15:29:17 - pipeline - INFO - ==================================================
+2026-02-17 15:29:17 - pipeline - INFO - Closing DuckDB connection
+2026-02-17 15:29:17 - pipeline - INFO - Connecting to DuckDB at C:\Users\karti\Trading_Strategy_Backtesting_Platform\data\stock_data.duckdb
+2026-02-17 15:29:17 - pipeline - INFO - Initializing database schema
+2026-02-17 15:29:17 - pipeline - INFO - Schema initialization complete
+2026-02-17 15:29:17 - pipeline - INFO - Closing DuckDB connection
